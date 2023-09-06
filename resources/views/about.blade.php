@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    {{ $nama }}
-    <!--  -->
-    <script src="js/script.js"></script>
-</body>
-</html>
+@extends('layout')
+
+@section('title', 'About Us')
+
+@section('content')
+    <h1>Ini merupakan about page</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Ut voluptate temporibus recusandae, ullam sed, odit voluptates 
+        deleniti aspernatur, in assumenda facilis. Quidem impedit ab 
+        eveniet saepe dolorum, tempore maxime cum.</p>
+@endsection
